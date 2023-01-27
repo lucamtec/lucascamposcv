@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    height: 190px;
+    width: 100%;
+    background: linear-gradient(to bottom, blue, white);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+
+#nombre{
+    color: whitesmoke;
+    font-family: 'Oswald', bold;
+    font-size: 60px;
+}
+
+a:hover{
+    font-weight:bold;
+}
+
+
+li{
+    font-family: 'Oswald';
+}
+
+.ltexto{
+    font-family: 'Oswald';
+    font-size: large;
+}
+
+.lpan{
+    margin-left: 50px;    
+}
+
+.lpanr{
+    margin-left: 50px;
+}
+
+#nombreimg{
+    width: 120px;
+    height: 160px;
+    float:right;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+
+.subtitulo{
+    height: 30px;
+    width: var(--wi);
+    background: linear-gradient(to left, rgb(255, 67, 67), white);
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+
+.subtitulo-texto{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.texto{
+    font-family: 'Oswald';
+}
+
+.cla{
+    margin-bottom: 60px;
+}
+
+#footer{
+    height: 190px;
+    width: 100%;
+    background: linear-gradient(to bottom, white, blue);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+@media (max-width: 540px){
+    .ltexto{
+        font-family: 'Oswald';
+        font-size: 15px;          
+    }
+    #nombreimg{
+        width: 70px;
+        height: 80px;
+        
+        margin-top: 5px;
+        margin-right: 5px;
+        border-radius: 1px;
+        -webkit-border-radius:1px;
+    }
+    #youtube{
+        width: 340px;
+        height: 215px;
+    }
+}    
+
+@media (max-width: 1030px){
+    .lpan{
+        margin-left: 30px; 
+    }
+    .subtitulo{
+        width: max-content;
+        
+    }
+    .lpanr{
+        margin-left: 10px;
+    }    
+}
+
